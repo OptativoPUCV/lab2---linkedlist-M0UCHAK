@@ -13,3 +13,15 @@ Wed 23 Aug 2023 10:03:47 PM UTC:
  tests:  1|5
 total_score: 10/70
 5e4319e
+Wed 23 Aug 2023 10:08:58 PM UTC: 
+ list.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c:57:8: error: redefinition of ‘nextList’
+   57 | void * nextList(List * list) {
+      |        ^~~~~~~~
+list.c:49:7: note: previous definition of ‘nextList’ with type ‘void *(List *)’ {aka ‘void *(struct List *)’}
+   49 | void *nextList(List *list){
+      |       ^~~~~~~~
+Compilation failed
+12da28a
