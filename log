@@ -31,3 +31,9 @@ Wed 23 Aug 2023 10:09:18 PM UTC:
  tests:  5|4
 total_score: 25/70
 662a18b
+Wed 23 Aug 2023 10:12:37 PM UTC: 
+ list.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+ tests:  9|3
+total_score: 35/70
+f379b97
