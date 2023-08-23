@@ -54,10 +54,6 @@ void *nextList(List *list){
     return list -> current -> data;
 }
 
-void * nextList(List * list) {
-    return NULL;
-}
-
 void * lastList(List * list) {
     return NULL;
 }

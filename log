@@ -25,3 +25,9 @@ list.c:49:7: note: previous definition of ‘nextList’ with type ‘void *(Lis
       |       ^~~~~~~~
 Compilation failed
 12da28a
+Wed 23 Aug 2023 10:09:18 PM UTC: 
+ list.c | 4 ----
+ 1 file changed, 4 deletions(-)
+ tests:  5|4
+total_score: 25/70
+662a18b
