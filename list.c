@@ -28,8 +28,10 @@ Node * createNode(void * data) {
     return new;
 }
 
-List * createList() {
-     return NULL;
+List * createList(){
+  List* newList = newList;
+  newList->head = NULL;
+  return newList;
 }
 
 void * firstList(List * list) {
